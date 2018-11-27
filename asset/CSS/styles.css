@@ -1,11 +1,13 @@
 body {
-  background-color: rgb(50, 79, 228);
+  background-color: rgb(33, 75, 201);
 }
-.department {
-  float:left;
+h2 {
+  text-decoration-color: white;
 }
+
 .container {
   background-color: rgb(129, 219, 238);
+  padding-top: 25px
 }
 .card {
   background-color: white;
@@ -14,7 +16,9 @@ body {
   margin: auto;
   text-align: center;
   font-family: arial;
-  max-height: 400;
+  max-height: 400px;
+  min-height: 400px;
+  margin-bottom: 10px;
 }
 
 .price {
